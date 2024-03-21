@@ -5,7 +5,7 @@ export default function SpeedySearching() {
     <div className="flex flex-col gap-8 py-20 xs:gap-36 sm:gap-60 sm:py-24 md:flex-row md:gap-24 lg:gap-36">
       <figure className=" relative w-full after:absolute after:-left-12 after:top-60 after:-z-10 after:h-4/6 after:w-full after:rounded-br-[20%] after:bg-soft-blue after:content-[''] sm:after:-left-28 sm:after:top-72 md:basis-8/12 md:after:-left-20 xl:after:-left-36 xl:after:top-80">
         <img
-          src="/public/images/illustration-features-tab-2.svg"
+          src="images/illustration-features-tab-2.svg"
           alt="hero_illustration"
           className="
           w-full cursor-pointer object-cover transition hover:scale-110"

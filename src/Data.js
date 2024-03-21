@@ -19,19 +19,19 @@ const style =
 
 export const extensionsAre = [
   {
-    img: "../../public/images/logo-chrome.svg",
+    img: "images/logo-chrome.svg",
     title: "Add to chrome",
     version: "Minimum version 62",
     styles: style,
   },
   {
-    img: "../../public/images/logo-firefox.svg",
+    img: "images/logo-firefox.svg",
     title: "Add to Firefox",
     version: "Minimum version 55",
     styles: style + " xl:mt-16 ",
   },
   {
-    img: "../../public/images/logo-opera.svg",
+    img: "images/logo-opera.svg",
     title: "Add to Opera",
     version: "Minimum version 46",
     styles: style + " xl:mt-32 ",
