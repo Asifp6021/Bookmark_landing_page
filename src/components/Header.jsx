@@ -5,7 +5,7 @@ export default function Header({ showNav, onShowNav }) {
     <div className="limit">
       <div className="pad flex w-full items-center justify-between gap-16 py-16">
         <img
-          src="/public/images/logo-bookmark.svg"
+          src="images/logo-bookmark.svg"
           alt="bookmark__logo"
           className="cursor-pointer"
         />
