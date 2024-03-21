@@ -39,7 +39,7 @@ export default function FrequentlyQuestion() {
                     {ques.questionIs}
                   </h4>
                   <img
-                    src="/public/images/icon-arrow.svg"
+                    src="images/icon-arrow.svg"
                     alt="arrow"
                     className={`${showAnswer[index] ? "rotate-180 transition-transform" : ""}`}
                   />
