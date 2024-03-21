@@ -6,7 +6,7 @@ export default function BookMarkManager() {
       <div className="pad flex w-full flex-col gap-24 py-20 md:flex-row-reverse md:pr-8">
         <figure className=" relative w-full after:absolute after:-right-24 after:top-24 after:-z-10 after:h-3/4 after:w-3/4 after:rounded-bl-[20%] after:bg-soft-blue after:content-[''] sm:after:top-40 md:basis-3/4">
           <img
-            src="/public/images/illustration-hero.svg"
+            src="images/illustration-hero.svg"
             alt="hero_illustration"
             className="
           w-full cursor-pointer object-cover transition hover:scale-110"
