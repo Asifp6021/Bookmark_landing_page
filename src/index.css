@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		font-size: 10px;
+		font-family: 'Rubik', sans-serif;
+	}
+}
+
+
+@layer utilities {
+	.limit {
+		@apply flex justify-center;
+	}
+
+	.limit > div:first-child {
+		@apply max-w-[1440px];
+	}
+
+	.pad {
+		@apply px-8 md:px-16 lg:px-24 xl:px-60;
+	}
+
+	.para {
+		@apply text-[1.7rem] leading-relaxed text-grayish-blue xs:text-center md:text-start md:leading-tight lg:text-3xl lg:leading-snug
+	}
+
+	.features_link {
+		@apply -mt-4 cursor-pointer border-t-2 border-grayish-blue border-opacity-50 py-8 text-center text-4xl text-grayish-blue md:border-none transition-colors hover:text-soft-red md:text-3xl
+	}
+
+	.active {
+		@apply relative after:absolute after:-bottom-5 after:left-2/4 after:h-[5px] after:w-96 after:-translate-x-2/4 after:bg-soft-red md:border-none md:text-3xl md:after:-bottom-1 md:after:-left-12 md:after:h-[3px] md:after:w-96 md:after:-translate-x-0
+	}
+
+	.sub_heading {
+		@apply cursor-pointer text-4xl font-medium xs:text-center sm:text-5xl
+	}
+}
